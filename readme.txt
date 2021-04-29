@@ -4,7 +4,7 @@ Contributors: themeix
 Tags: blog,block-styles, right-sidebar, footer-widgets, sticky-post, theme-options, full-width-template, custom-background, custom-logo, custom-menu, featured-images, flexible-header, threaded-comments, translation-ready
 Requires at least: 4.9
 Tested up to: 5.4.1
-Stable tag: 1.0.3
+Stable tag: 1.0.5
 Requires PHP: 5.6
 Author URI: https://themeix.com/
 Theme URI: https://themeix.com/product/doxy-responsive-wordpress-theme/
