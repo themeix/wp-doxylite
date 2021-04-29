@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------------------
+Theme Name: Doxylite
+Theme URI: https://themeix.com/product/doxy-responsive-wordpress-theme/
+Author: themeix
+Author URI:  https://themeix.com
+Description: Doxylite is a responsive hosting theme for the digital products authors. This theme is compatible with Gutenberg, Elementor as well as other page builder plugins which helps you to deliever your content smoothly. Though it is best for hosting website but you can use that theme for any other business or corporate website. There used Bootstrap 4 framework to make the frontend of that theme. You can customize the colors, fonts and other things easily. 
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
+Text Domain: doxylite
+Tags: blog,block-styles, right-sidebar, footer-widgets, sticky-post, theme-options, full-width-template, custom-background, custom-logo, custom-menu, featured-images, flexible-header, threaded-comments, translation-ready
+--------------------------------------------------------------------------/*
+
+/*
+###########################
+Start your custom css here
+###########################
+*/
+
+a:hover,
+a:focus:hover,
+a:visited,
+a:active {
+    outline: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.wp-block-button{
+    margin-bottom: 15px;
+}
