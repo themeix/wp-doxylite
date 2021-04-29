@@ -273,7 +273,7 @@ require get_template_directory() . '/inc/doxylite-inline-style.php';
 //Doxy modal search form
     function doxy_modal_search_form()
     { ?>
-        <form class="modal-search-form" method="get" action="<?php echo esc_url(site_url()); ?>">
+        <form class="modal-search-form" method="get" action="<?php echo esc_url(home_url()); ?>">
             <div class="input-group">
                 <input type="search" class="form-control" placeholder="<?php esc_attr_e('Search', 'doxylite'); ?>" name="s" required>
                 <span class="input-group-btn">

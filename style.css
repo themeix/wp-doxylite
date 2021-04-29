@@ -1,15 +1,26 @@
-/*--------------------------------------------------------------------------
+/*
 Theme Name: Doxylite
-Theme URI: https://themeix.com/product/doxy-responsive-wordpress-theme/
-Author: themeix
-Author URI:  https://themeix.com
-Description: Doxylite is a responsive hosting theme for the digital products authors. This theme is compatible with Gutenberg, Elementor as well as other page builder plugins which helps you to deliever your content smoothly. Though it is best for hosting website but you can use that theme for any other business or corporate website. There used Bootstrap 4 framework to make the frontend of that theme. You can customize the colors, fonts and other things easily. 
-Version: 1.0.5
-License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 Text Domain: doxylite
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.5
+Tested up to: 5.7
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Doxylite is a responsive hosting theme for the digital products authors. This theme is compatible with Gutenberg, Elementor as well as other page builder plugins which helps you to deliever your content smoothly. Though it is best for hosting website but you can use that theme for any other business or corporate website. There used Bootstrap 4 framework to make the frontend of that theme. You can customize the colors, fonts and other things easily. 
+Author: Themeix
+Author URI: https://themeix.com
+Theme URI: https://themeix.com/product/doxy-responsive-wordpress-theme/
 Tags: blog,block-styles, right-sidebar, footer-widgets, sticky-post, theme-options, full-width-template, custom-background, custom-logo, custom-menu, featured-images, flexible-header, threaded-comments, translation-ready
---------------------------------------------------------------------------/*
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
 
 /*
 ###########################

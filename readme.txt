@@ -2,13 +2,13 @@
 
 Contributors: themeix
 Tags: blog,block-styles, right-sidebar, footer-widgets, sticky-post, theme-options, full-width-template, custom-background, custom-logo, custom-menu, featured-images, flexible-header, threaded-comments, translation-ready
-Requires at least: 4.9
-Tested up to: 5.4.1
+Requires at least: 4.7
+Tested up to: 5.7
 Stable tag: 1.0.5
 Requires PHP: 5.6
 Author URI: https://themeix.com/
 Theme URI: https://themeix.com/product/doxy-responsive-wordpress-theme/
-License: GNU General Public License v2 or later
+License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
@@ -40,6 +40,7 @@ Doxy Lite includes support for contact form 7, Elementor Page Builder, Redux Fra
 == Changelog ==
 
 = 1.0.5 =
+* Kirki Plugin Updated
 * Demo Import option for FREE version
 
 = 1.0.4 =
