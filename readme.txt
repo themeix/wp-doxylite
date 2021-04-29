@@ -38,18 +38,14 @@ Doxy Lite is distributed under the terms of the GNU General Public License v2
 Doxy Lite includes support for contact form 7, Elementor Page Builder, Redux Framework, Kirki Framework, Advance Custom Fields.
 
 == Changelog ==
-= 1.0.0 =
-* Initial release
 
-= 1.0.1 =
-* Fix skip links and accessibility.
-* All strings are now translatable and pot file is now updated.
-* All plugins are now recommended.
-* Remove an unnecessary file from include folder.
-* Fixed bugs
+= 1.0.5 =
+* Demo Import option for FREE version
 
-= 1.0.2 =
-* Fixed bugs
+= 1.0.4 =
+* About Doxylite page bug fixed
+* Update translation
+* Remove unnecessary prefix from doxy scripts
 
 = 1.0.3 =
 * Add license
@@ -58,10 +54,18 @@ Doxy Lite includes support for contact form 7, Elementor Page Builder, Redux Fra
 * Fixed bugs
 * Update CSS Code
 
-= 1.0.4 =
-* About Doxylite page bug fixed
-* Update translation
-* Remove unnecessary prefix from doxy scripts
+= 1.0.2 =
+* Fixed known bugs
+
+= 1.0.1 =
+* Fix skip links and accessibility.
+* All strings are now translatable and pot file is now updated.
+* All plugins are now recommended.
+* Remove an unnecessary file from include folder.
+* Fixed bugs
+
+= 1.0.0 =
+* Initial release
 
 == Credits ==
 
