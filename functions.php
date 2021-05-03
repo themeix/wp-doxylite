@@ -2,7 +2,7 @@
 if (!defined('DOXY_THEME_URI')) {
     define('DOXY_THEME_URI', get_template_directory_uri());
 }
-define('GIT', 'https://raw.githubusercontent.com/mDAAKASH/doxylite1.0.5/master/demo-');
+define('GIT', 'https://raw.githubusercontent.com/akashmdiu/doxylite.1.0.6/master/demo-');
 define('DOXY_THEME_DIR', get_template_directory());
 define('DOXY_CSS_URL', get_template_directory_uri() . '/assets/css');
 define('DOXY_JS_URL', get_template_directory_uri() . '/assets/js');
@@ -222,7 +222,7 @@ function doxy_comments($comment, $args, $depth)
                     </span>
                 </h6>
 
-                <div class="date-and-edit"><span class="date"><?php echo get_comment_date(); ?></span></div>
+                <div class="date-and-edit"><span class="date"><?php echo esc_html(get_comment_date()); ?></span></div>
 
                 <?php if ($comment->comment_approved == '0') : ?>
                     <em><i class="icon-info-sign"></i> <?php esc_html_e('Comment awaiting approval', 'doxylite'); ?></em>
@@ -262,7 +262,10 @@ add_filter('post_class', 'doxy_custom_post_class');
 
 
 //Doxy customizer
-require get_template_directory() . '/inc/customizer/class-customizer.php';
+if (class_exists('kirki')) {
+    require DOXY_INC_DIR . '/customizer/class-customizer.php';
+    require DOXY_INC_DIR . '/customizer/customizer-options.php';
+}
 
 //Doxy theme info
 require get_template_directory() . '/inc/welcome-page.php';
@@ -309,3 +312,4 @@ function doxy_import_after_menu()
     ));
 }
 add_action('pt-ocdi/after_import', 'doxy_import_after_menu');
+

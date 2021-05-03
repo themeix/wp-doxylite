@@ -3,7 +3,7 @@ Theme Name: Doxylite
 Text Domain: doxylite
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.0.5
+Version: 1.0.6
 Tested up to: 5.7
 Requires at least: 4.7
 Requires PHP: 5.2.4
@@ -21,17 +21,13 @@ Use it to make something cool, have fun, and share what you've learned
 with others.
 */
 
-
 /*
 ###########################
 Start your custom css here
 ###########################
 */
 
-a:hover,
-a:focus:hover,
-a:visited,
-a:active {
+a:hover, a:focus:hover, a:visited, a:active {
     outline: 0;
 }
 
@@ -52,6 +48,191 @@ a:focus {
     word-wrap: normal !important;
 }
 
-.wp-block-button{
+.wp-block-button {
     margin-bottom: 15px;
 }
+
+/* better docs */
+
+.betterdocs-single-wraper {
+    background-color: white;
+}
+
+.betterdocs-single-wraper .betterdocs-search-form-wrap {
+    padding: 200px 0;
+    background: #280636;
+    padding-bottom: 120px;
+    background-image: url("http://localhost/wptest/wp-content/uploads/2021/05/page-title-img.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.betterdocs-single-wraper .betterdocs-search-form-wrap:before {
+    content: '';
+    background-color: #280636;
+    opacity: 0.8;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.betterdocs-sidebar-content {
+    box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+
+.betterdocs-entry-footer .update-date, .betterdocs-entry-footer .feedback-form-link {
+    font-weight: bold;
+}
+
+.feedback-update-form {
+    box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+    padding: 20px 30px;
+}
+
+.betterdocs-sidebar-content.betterdocs-category-sidebar .docs-item-count {
+    background-color: #280636;
+}
+
+.betterdocs-sidebar-content.betterdocs-category-sidebar .docs-single-cat-wrap .docs-cat-title-wrap.active-title {
+    border-color: #280636;
+}
+
+.betterdocs-print-pdf {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.docs-single-main .betterdocs-breadcrumb {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.betterdocs-modalwindow .modal-content {
+    width: 100%;
+    transform: translate(10px, 10px);
+}
+
+.betterdocs-categories-wrap ul {
+    padding-left: 15px;
+}
+
+.betterdocs-social-share-links li a img {
+    height: 40px;
+    width: 40px;
+    transition: .3s;
+}
+
+.betterdocs-live-search .docs-search-result li img {
+    height: auto;
+}
+
+.betterdocs-social-share .betterdocs-social-share-heading h5 {
+    color: #280636;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.betterdocs-social-share-links li a img:hover {
+    transform: scale(1.2);
+}
+
+.betterdocs-live-search .docs-search-result li a {
+    font-weight: bold;
+}
+
+.betterdocs-live-search .docs-search-result li a span {
+    font-weight: normal;
+}
+
+.docs-category-listing {
+    padding-top: 0!important;
+}
+
+ul.betterdocs-breadcrumb-list {
+    padding-bottom: 25px;
+}
+
+.docs-cat-title-inner .docs-cat-heading {
+    line-height: 1.6;
+}
+
+.docs-single-title .betterdocs-entry-title {
+    text-transform: inherit;
+}
+
+div#betterdocs-single-main img {
+    height: auto;
+}
+
+.docs-cat-title-inner span {
+    width: 20px;
+    height: 20px;
+}
+
+nav#betterdocs-breadcrumb {
+    box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.betterdocs-breadcrumb .breadcrumb-delimiter .breadcrumb-delimiter-icon {
+    width: 8px;
+    margin-top: -4px;
+}
+
+div#betterdocs-single-content p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.docs-single-title .betterdocs-entry-title {
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+input#feedback_form_submit_btn {
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.betterdocs-el-single-sidebar .sticky-toc-container .betterdocs-toc, .betterdocs-single-layout1 .sticky-toc-container .betterdocs-toc {
+    overflow-y: auto;
+}
+
+span.toc-title {
+    padding: 15px;
+   
+}
+
+.betterdocs-toc.toc-list-number {
+    padding: 0;
+}
+
+ul.toc-list.betterdocs-hierarchial-toc {
+    padding: 0 0px 0 20px;
+}
+
+.betterdocs-toc.toc-list-number .toc-list.betterdocs-hierarchial-toc li a::before {
+    display: none;
+}
+.betterdocs-toc.toc-list-number{
+    box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+    padding-bottom: 10px;
+}
+.betterdocs-toc > .toc-title {
+    color: white!important;
+    font-size: 18px;
+    background: #280636;
+}
+/* @media (max-width: 1366px) { */
+    .betterdocs-single-wraper .betterdocs-content-area {
+        max-width: 1160px;
+    }
+/* } */

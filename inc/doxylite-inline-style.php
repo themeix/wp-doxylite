@@ -92,8 +92,9 @@ function doxy_inline_style()
         .print-link:hover,
         .docs-footer span.text-left a,
         .dwqa-btn-primary:hover,
-        .wpas-form h3,.navigation-navbar ul.sub-menu li a:hover {
-            color: $theme_color;
+        .wpas-form h3,.navigation-navbar ul.sub-menu li a:hover,.docs-cat-title-inner .docs-cat-heading.,.betterdocs-category-box.single-kb .docs-single-cat-wrap .docs-cat-title,
+		.single-kb .docs-cat-list-2 .docs-cat-title,.docs-cat-link-btn, .docs-cat-link-btn:visited  {
+            color: $theme_color!important;
         }
         
         .home-top,
@@ -131,8 +132,8 @@ function doxy_inline_style()
         .page-content form [type=submit],
         button.wpas-btn.wpas-btn-default,
         .dwqa-btn-primary,
-        li.doc-active a,.page-title-wrapper:before,.loading-main {
-            background-color: $theme_color;
+        li.doc-active a,.page-title-wrapper:before,.loading-main,#feedback_form_submit_btn,.betterdocs-categories-wrap .docs-item-count,.docs-cat-link-btn:hover,.docs-cat-link-btn:hover {
+            background-color: $theme_color!important;
         }
         
         .btn-style1:hover,
@@ -147,8 +148,8 @@ function doxy_inline_style()
         .reply a:hover,
         div.wpcf7-response-output,
         .comments_template .btn-style2:focus,
-        .comments_template .btn-style2:active {
-            border-color: $theme_color;
+        .comments_template .btn-style2:active,.docs-cat-title-inner,.docs-cat-link-btn, .docs-cat-link-btn:visited {
+            border-color: $theme_color!important;
         }    
 
         a.custom-logo-link img {

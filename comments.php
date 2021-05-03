@@ -44,7 +44,7 @@ $comments_args = array(
     'class_form'      => 'comment-form',
     'id_submit'         => 'submit',
     'class_submit'   => 'btn-style2 btn',
-    'title_reply_to'    => esc_html__('Leave a Reply to %s', 'doxylite'),
+    'title_reply_to'    => esc_html__('Leave a Reply to ', 'doxylite').'%s',
     'cancel_reply_link' => esc_html__('Cancel Reply', 'doxylite'),
     'format'            => 'xhtml',
 

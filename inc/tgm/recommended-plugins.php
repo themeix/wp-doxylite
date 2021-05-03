@@ -79,6 +79,16 @@ function doxy_register_required_plugins()
             'required' => false,
         ),
         array(
+            'name' => esc_html__('BetterDocs', 'doxylite'),
+            'slug' => 'betterdocs',
+            'required' => false,
+        ),
+        array(
+            'name' => esc_html__('Kirki Customizer Framework', 'doxylite'),
+            'slug' => 'kirki',
+            'required' => false,
+        ),
+        array(
             'name' => esc_html__('One Click Demo Import', 'doxylite'),
             'slug' => 'one-click-demo-import',
             'required' => false,

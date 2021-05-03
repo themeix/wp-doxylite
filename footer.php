@@ -26,7 +26,7 @@
         <div class="footer-wrapper copyright">
             <div class="container">
                 <div class="footer-copyright text-center">
-                    <p><?php esc_html_e('Copyright ', 'doxylite'); echo date('Y'); esc_html_e(' Doxylite - Designed by ', 'doxylite'); ?> <a href="<?php echo esc_url('https//themeix.com'); ?>"><?php esc_html_e('Themeix', 'doxylite'); ?></a></p>
+                    <p><?php esc_html_e('Copyright ', 'doxylite'); echo esc_html(date('Y')); esc_html_e(' Doxylite - Designed by ', 'doxylite'); ?> <a href="<?php echo esc_url('https//themeix.com'); ?>"><?php esc_html_e('Themeix', 'doxylite'); ?></a></p>
                 </div>
             </div>
         </div>

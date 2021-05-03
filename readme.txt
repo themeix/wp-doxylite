@@ -39,6 +39,14 @@ Doxy Lite includes support for contact form 7, Elementor Page Builder, Redux Fra
 
 == Changelog ==
 
+= 1.0.6 =
+Add documentation featured
+Remove unnecessary code
+Fixed preloader bug 
+Update demo content
+Remove kirki plugin integration from theme
+Support kirki customization plugins
+
 = 1.0.5 =
 * Kirki Plugin Updated
 * Demo Import option for FREE version

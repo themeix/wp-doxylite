@@ -22,10 +22,10 @@
                 if (has_excerpt()) {
                     the_excerpt();
                 } else {
-                    echo doxy_excerpt($limit);
+                    echo esc_html(doxy_excerpt($limit));
                 }
                 ?>
         </p>
     </div>
-    <?php echo get_template_part('template-parts/blog-meta', 'blog-meta'); ?>
+    <?php get_template_part('template-parts/blog-meta'); ?>
 </article>

@@ -86,34 +86,3 @@ function doxy_customize_preview_js() {
 
 }
 add_action( 'customize_preview_init', 'doxy_customize_preview_js' );
-
-/*------------------------------------------
- => Add Kirki customizer library file
-------------------------------------------*/
-
-require get_template_directory() . '/inc/kirki/kirki.php';
-
-/*------------------------------------------
- => Configuration for Kirki Framework
-------------------------------------------*/
-
-function doxy_kirki_configuration() {
-    return array(
-        'url_path' => get_template_directory_uri() . '/inc/kirki/',
-    );
-}
-add_filter( 'kirki/config', 'doxy_kirki_configuration' );
-
- 
-/*------------------------------------------
- => Kirki Config 
-------------------------------------------*/
-
-Kirki::add_config( 'doxy_config', array(
-    'capability'  => 'edit_theme_options',
-    'option_type' => 'theme_mod',
-) );
-require get_template_directory() . '/inc/customizer/customizer-options.php';
-
-
-

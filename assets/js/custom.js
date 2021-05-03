@@ -265,6 +265,9 @@
   $('#myModal').on('shown.bs.modal', function () {
     $('.seachmodal').focus();
   })
+  if (document.querySelector('.betterdocs-credit') !== null) {
+    document.querySelector('.betterdocs-credit').innerHTML = '<p>Powered by <a href="https://themeix.com" target="_blank">Themeix</a></p>';
+  }
 
 })(jQuery);
 
